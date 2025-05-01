@@ -1,0 +1,71 @@
+head,relation,tail
+Product details,is parent of,Skincare
+Skincare,is parent of,Soothing aroma
+Skincare,is parent of,Sweet almond oil
+Skincare,is parent of,Oil lightweight
+Skincare,is parent of,Bundle hair
+Product details,is parent of,Aromatherapy products
+Aromatherapy products,is parent of,Refillable container
+Aromatherapy products,is parent of,Spray
+Aromatherapy products,is parent of,Cherry perfect
+Aromatherapy products,is parent of,Quality glass
+Product details,is parent of,Grooming
+Grooming,is parent of,Shower grooming
+Grooming,is parent of,Static detangling
+Grooming,is parent of,Comes with combs
+Grooming,is parent of,Straight hair
+Product details,is parent of,Skincare routines
+Skincare routines,is parent of,Cream perfect
+Skincare routines,is parent of,Tula probiotic
+Skincare routines,is parent of,Skin day care
+Skincare routines,is parent of,Infused watermelon
+Skincare routines,is parent of,Hydration heaviness
+Product details,is parent of,Hair styling tools
+Hair styling tools,is parent of,Metal clips
+Hair styling tools,is parent of,Hair ease
+Hair styling tools,is parent of,Stylish
+Hair styling tools,is parent of,Ikoco pack
+Hair styling tools,is parent of,Pack jaw
+B08LYT4Q2X,related to,Aromatherapy products
+B08LYT4Q2X,related to,Skincare
+B08LYT4Q2X,related to,Skincare routines
+B08LYT4Q2X,related to,Grooming
+B08LYT4Q2X,related to,Hair styling tools
+B08LYT4Q2X,related to,Soothing aroma
+B08LYT4Q2X,related to,Skin day care
+B08LYT4Q2X,related to,Sweet almond oil
+B08LYT4Q2X,related to,Oil lightweight
+B08LYT4Q2X,related to,Bundle hair
+B08LYT4Q2X,related to,Straight hair
+B08LYT4Q2X,related to,Hair ease
+B089CSF11Y,related to,Aromatherapy products
+B089CSF11Y,related to,Refillable container
+B089CSF11Y,related to,Spray
+B089CSF11Y,related to,Cherry perfect
+B089CSF11Y,related to,Cream perfect
+B089CSF11Y,related to,Quality glass
+B089CSF11Y,related to,Soothing aroma
+B081ZN3TD5,related to,Grooming
+B081ZN3TD5,related to,Hair styling tools
+B081ZN3TD5,related to,Shower grooming
+B081ZN3TD5,related to,Static detangling
+B081ZN3TD5,related to,Comes with combs
+B081ZN3TD5,related to,Bundle hair
+B081ZN3TD5,related to,Straight hair
+B081ZN3TD5,related to,Hair ease
+B08WF29DM9,related to,Skincare
+B08WF29DM9,related to,Skincare routines
+B08WF29DM9,related to,Cherry perfect
+B08WF29DM9,related to,Cream perfect
+B08WF29DM9,related to,Tula probiotic
+B08WF29DM9,related to,Skin day care
+B08WF29DM9,related to,Infused watermelon
+B08WF29DM9,related to,Hydration heaviness
+B08HMLXW65,related to,Hair styling tools
+B08HMLXW65,related to,Metal clips
+B08HMLXW65,related to,Bundle hair
+B08HMLXW65,related to,Straight hair
+B08HMLXW65,related to,Hair ease
+B08HMLXW65,related to,Stylish
+B08HMLXW65,related to,Ikoco pack
+B08HMLXW65,related to,Pack jaw

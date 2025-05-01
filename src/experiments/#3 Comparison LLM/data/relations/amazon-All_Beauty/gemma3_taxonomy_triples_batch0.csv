@@ -1,0 +1,58 @@
+head,relation,tail
+Product details,is parent of,Hair care
+Hair care,is parent of,deeply moisturizes
+Hair care,is parent of,almond fractionated
+Hair care,is parent of,coconut
+Hair care,is parent of,oil bundle
+Product details,is parent of,oils cleaning
+oils cleaning,is parent of,oils cleaning
+oils cleaning,is parent of,oz container
+oils cleaning,is parent of,glass
+oils cleaning,is parent of,hand wash
+Product details,is parent of,combs featuring
+combs featuring,is parent of,transform shower
+combs featuring,is parent of,leaving hair
+combs featuring,is parent of,static detangling
+combs featuring,is parent of,grooming experience
+Product details,is parent of,night cream
+night cream,is parent of,tula probiotic
+night cream,is parent of,revitalized skin
+night cream,is parent of,radiant complexion
+night cream,is parent of,intense hydration
+Product details,is parent of,style clip
+style clip,is parent of,style clip
+style clip,is parent of,slippery strands
+style clip,is parent of,ikoco pack
+style clip,is parent of,fine hair
+style clip,is parent of,secure jaw
+B08LYT4Q2X,related to,Hair care
+B08LYT4Q2X,related to,deeply moisturizes
+B08LYT4Q2X,related to,intense hydration
+B08LYT4Q2X,related to,almond fractionated
+B08LYT4Q2X,related to,coconut
+B08LYT4Q2X,related to,leaving hair
+B08LYT4Q2X,related to,grooming experience
+B08LYT4Q2X,related to,fine hair
+B08LYT4Q2X,related to,oil bundle
+B089CSF11Y,related to,oils cleaning
+B089CSF11Y,related to,oz container
+B089CSF11Y,related to,hand wash
+B089CSF11Y,related to,glass
+B081ZN3TD5,related to,combs featuring
+B081ZN3TD5,related to,Hair care
+B081ZN3TD5,related to,transform shower
+B081ZN3TD5,related to,leaving hair
+B081ZN3TD5,related to,static detangling
+B081ZN3TD5,related to,grooming experience
+B08WF29DM9,related to,night cream
+B08WF29DM9,related to,tula probiotic
+B08WF29DM9,related to,revitalized skin
+B08WF29DM9,related to,radiant complexion
+B08WF29DM9,related to,deeply moisturizes
+B08WF29DM9,related to,intense hydration
+B08HMLXW65,related to,style clip
+B08HMLXW65,related to,Hair care
+B08HMLXW65,related to,slippery strands
+B08HMLXW65,related to,ikoco pack
+B08HMLXW65,related to,fine hair
+B08HMLXW65,related to,secure jaw

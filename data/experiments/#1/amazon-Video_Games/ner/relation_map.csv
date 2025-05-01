@@ -1,0 +1,116 @@
+relation,id
+rated,0
+platform,1
+has part,2
+publisher,3
+publication date,4
+parent organization,5
+developer,6
+genre,7
+"dissolved, abolished or demolished date",8
+manufacturer,9
+subclass of,10
+part of the series,11
+present in work,12
+product or material produced,13
+part of,14
+country,15
+different from,16
+inception,17
+operating system,18
+instance of,19
+characters,20
+member of,21
+follows,22
+followed by,23
+located in the administrative territorial entity,24
+notable work,25
+sport,26
+connects with,27
+creator,28
+subsidiary,29
+uses,30
+designed by,31
+narrative location,32
+replaced by,33
+used by,34
+original broadcaster,35
+owned by,36
+based on,37
+cast member,38
+composer,39
+author,40
+number of episodes,41
+performer,42
+location,43
+derivative work,44
+use,45
+distributed by,46
+country of origin,47
+part,48
+influenced by,49
+end time,50
+member of sports team,51
+residence,52
+occupant,53
+opposite of,54
+sibling,55
+mother,56
+child,57
+sports season of league or competition,58
+occupation,59
+owner of,60
+production company,61
+present in,62
+contains administrative territorial entity,63
+named after,64
+award received,65
+director,66
+home venue,67
+main subject,68
+facet of,69
+number of participants,70
+conflict,71
+length,72
+said to be the same as,73
+headquarters location,74
+present,75
+operator,76
+after a work by,77
+point in time,78
+shares border with,79
+educated at,80
+educated,81
+weight,82
+relative,83
+employer,84
+spouse,85
+has,86
+located on terrain feature,87
+participant,88
+start time,89
+date of birth,90
+diplomatic relation,91
+place of birth,92
+capital of,93
+screenwriter,94
+twinned administrative body,95
+student,96
+student of,97
+position held,98
+record label,99
+place of death,100
+presenter,101
+family,102
+father,103
+located in or next to body of water,104
+language of work or name,105
+capital,106
+organizer,107
+participant in,108
+time period,109
+programming language,110
+military rank,111
+league,112
+price range,113
+product,114

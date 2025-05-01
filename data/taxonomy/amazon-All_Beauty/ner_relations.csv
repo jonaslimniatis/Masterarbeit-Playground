@@ -1,0 +1,580 @@
+head,relation,tail
+B08HMLXW65,instance of,
+,instance of,ASIN
+B08HMLXW65,instance of,IKOCO
+IKOCO,instance of,ASIN
+B08JCX3DL7,country,
+,country,United Kingdom
+B08JCX3DL7,country,Pippa Of London
+Pippa Of London,country,United Kingdom
+B088M5P8FN,manufacturer,
+,manufacturer,MUSENCO
+B088M5P8FN,manufacturer,Stick On Press
+Stick On Press,manufacturer,MUSENCO
+B088M5P8FN,manufacturer,Stick On Press Nails
+Stick On Press Nails,manufacturer,MUSENCO
+B0845LNDJK,manufacturer,
+,manufacturer,TCM
+B089NJG212,country,
+,country,Republic of
+B089NJG212,contains administrative territorial entity,Republic of
+Republic of,contains administrative territorial entity,Korea
+B083TLNBJJ,subclass of,
+,subclass of,Multi Vitamin Serum
+B083TLNBJJ,subclass of,Vitamin C
+Vitamin C,subclass of,Multi Vitamin Serum
+B083TLNBJJ,subclass of,Vitamin E
+Vitamin E,subclass of,Multi Vitamin Serum
+,subclass of,Vitamin
+Vitamin E,subclass of,Vitamin
+Vitamin C,subclass of,Vitamin
+B07YG4PRTN,subclass of,
+,subclass of,makeup brush
+B07YG4PRTN,subclass of,lip brush
+lip brush,subclass of,makeup brush
+B089D16BWJ,country,
+,country,South Korea
+B089D16BWJ,country,OxygenCeuticals
+OxygenCeuticals,country,South Korea
+B089D16BWJ,product or material produced,
+,product or material produced,SKIN CARE
+B089D16BWJ,product or material produced,OxygenCeuticals
+OxygenCeuticals,product or material produced,SKIN CARE
+B07FPS2VFK,product or material produced,
+,product or material produced,Body Scrub
+B07FPS2VFK,product or material produced,C'est Moi
+C'est Moi,product or material produced,Body Scrub
+B08HZ5Y8RY,instance of,
+B08HZ5Y8RY,instance of,CIMIY
+CIMIY,instance of,ASIN
+B088PYN4VM,practiced by,
+,practiced by,Barber
+B088PYN4VM,field of this occupation,Barber
+Barber,field of this occupation,Hairdressing
+B088PYN4VM,has part,
+,has part,Scissors
+B088PYN4VM,part of,Scissors
+Scissors,part of,Cutting Scissors Set 10 Pcs
+B08F79Z1Q5,instance of,
+,instance of,Pack
+B08F79Z1Q5,instance of,MEACOLIA
+MEACOLIA,instance of,Pack
+B07P4LLZS6,owned by,
+,owned by,CleveAid
+B07P4LLZS6,owned by,Easydew
+Easydew,owned by,CleveAid
+B07NPWK167,manufacturer,
+,manufacturer,L&I Apothecary
+B07NPWK167,product or material produced,L&I Apothecary
+L&I Apothecary,product or material produced,Goat Milk Facial Cleanser
+B08HRHCZV2,subclass of,
+,subclass of,Cosmetic Products
+B08HRHCZV2,subclass of,Liquid
+Liquid,subclass of,Cosmetic Products
+B08K8P7LN6,instance of,
+B08K8P7LN6,instance of,ROSEGIN
+ROSEGIN,instance of,ASIN
+B0941YDPSW,country,
+,country,France
+B0941YDPSW,country,Garnier Whole Blends
+Garnier Whole Blends,country,France
+B07HVRP37G,manufacturer,
+,manufacturer,LOLYSENTA
+B087ZQK2G8,instance of,
+,instance of,Brand
+B087ZQK2G8,instance of,Maya MARI
+Maya MARI,instance of,Brand
+B08N6CLJ6P,instance of,
+B08N6CLJ6P,instance of,Aesfee
+Aesfee,instance of,ASIN
+B089R7S73D,manufacturer,
+,manufacturer,SAZEN
+B0863FZFPV,instance of,
+,instance of,Hair Type
+B0863FZFPV,instance of,Style
+Style,instance of,Hair Type
+B086GST51S,instance of,
+B086GST51S,instance of,PURELEOR
+PURELEOR,instance of,Brand
+B09L33VJCL,instance of,
+B09L33VJCL,instance of,Allez
+Allez,instance of,ASIN
+B085MCMZLX,instance of,
+B085MCMZLX,instance of,Modern
+Modern,instance of,Hair Type
+B08343FS9P,subclass of,
+,subclass of,Cosmetic
+B08343FS9P,subclass of,Liquid Body Soap
+Liquid Body Soap,subclass of,Cosmetic
+B08343FS9P,subclass of,Lotion
+Lotion,subclass of,Cosmetic
+B089KBMST6,instance of,
+B089KBMST6,instance of,OLEWELL
+OLEWELL,instance of,Brand
+B07JGD2T2J,manufacturer,
+,manufacturer,RUGGED & DAPPER
+B083122WRC,instance of,
+B083122WRC,instance of,COSYMAY
+COSYMAY,instance of,ASIN
+B083122WRC,product or material produced,
+,product or material produced,Human Hair Wig
+B083122WRC,product or material produced,COSYMAY
+COSYMAY,product or material produced,Human Hair Wig
+B08KJF6Y6C,manufacturer,
+,manufacturer,UJM
+B0B8SFDJN9,country,
+,country,USA
+B0B8SFDJN9,country,Gentlehomme
+Gentlehomme,country,USA
+B0B4MR9BXN,country,
+,country,Republic of Korea
+B0B4MR9BXN,country,JUNG SAEM MOOL
+JUNG SAEM MOOL,country,Republic of Korea
+B0B4MR9BXN,country of origin,
+,country of origin,Republic of Korea
+B0B4MR9BXN,country of origin,JUNG SAEM MOOL
+JUNG SAEM MOOL,country of origin,Republic of Korea
+B08575Y9V3,instance of,
+B08575Y9V3,instance of,Abib
+Abib,instance of,ASIN
+B08SG2MBRY,manufacturer,
+,manufacturer,HASK
+B08JTNQFZY,instance of,
+B08JTNQFZY,instance of,GAINWELL
+GAINWELL,instance of,ASIN
+B08QVJ4NVD,product or material produced,
+,product or material produced,Skin Care
+B08QVJ4NVD,product or material produced,OGANA CELL
+OGANA CELL,product or material produced,Skin Care
+B0BVQQ58G8,inception,
+,inception,2011
+B0BVQQ58G8,inception,Beauty Bakerie
+Beauty Bakerie,inception,2011
+B08PLFZB89,country of origin,
+,country of origin,USA
+B08PLFZB89,country of origin,Got2b
+Got2b,country of origin,USA
+B08PLFZB89,country,
+B08PLFZB89,country,Got2b
+Got2b,country,USA
+B08PLFZB89,product or material produced,
+,product or material produced,Spray Wax
+B08PLFZB89,product or material produced,Got2b
+Got2b,product or material produced,Spray Wax
+B08C72C56Z,manufacturer,
+,manufacturer,Keiby Citom
+B08BKWLHYP,product or material produced,
+B08BKWLHYP,product or material produced,ZOUSZ
+ZOUSZ,product or material produced,Skin Care
+B0844X21MJ,instance of,
+B0844X21MJ,instance of,Tame the Beast
+Tame the Beast,instance of,Brand
+B07MZT83KK,instance of,
+B07MZT83KK,instance of,EASYDEW
+EASYDEW,instance of,ASIN
+B07MZT83KK,product or material produced,
+,product or material produced,Cream
+B07MZT83KK,product or material produced,EASYDEW
+EASYDEW,product or material produced,Cream
+B085RS26YH,instance of,
+B085RS26YH,instance of,LUXEDIVA
+LUXEDIVA,instance of,ASIN
+B085RS26YH,country,
+,country,Brazil
+B085RS26YH,country,LUXEDIVA
+LUXEDIVA,country,Brazil
+B07XVNJFNF,instance of,
+B07XVNJFNF,instance of,Fagaci
+Fagaci,instance of,ASIN
+B08QKXY1KN,different from,
+,different from,Conditioner
+B08QKXY1KN,different from,Conditioner
+Conditioner,different from,Shampoo
+B08C2T24WG,manufacturer,
+,manufacturer,MORGLES
+B08C2T24WG,manufacturer,Tweezers for Eyebrows
+Tweezers for Eyebrows,manufacturer,MORGLES
+B07RM722DH,instance of,
+B07RM722DH,instance of,Queendom
+Queendom,instance of,ASIN
+B09473GGM4,instance of,
+B09473GGM4,instance of,Tirtyl
+Tirtyl,instance of,ASIN
+B081632HX6,has part,
+,has part,Vitamin E
+B081632HX6,has part,Argan Oil
+Argan Oil,has part,Vitamin E
+B081632HX6,use,
+,use,Moisturizer
+B081632HX6,use,Argan Oil
+Argan Oil,use,Moisturizer
+B081632HX6,owned by,
+,owned by,Livordo
+B081632HX6,owned by,Argan Oil
+Argan Oil,owned by,Livordo
+B08GKVYS1Y,instance of,
+B08GKVYS1Y,instance of,JIADEL
+JIADEL,instance of,Brand
+B08GKVYS1Y,manufacturer,
+,manufacturer,JIADEL
+B08F4ZDVZQ,instance of,
+B08F4ZDVZQ,instance of,Touch in Sol
+Touch in Sol,instance of,ASIN
+B08P15TB2V,manufacturer,
+,manufacturer,TOEDO
+B07SLFWZKN,instance of,
+B07SLFWZKN,instance of,Keratin Secrets
+Keratin Secrets,instance of,ASIN
+B07W1WJZFG,manufacturer,
+,manufacturer,Simply Dana
+B08BY9P4HR,instance of,
+B08BY9P4HR,instance of,BFWood
+BFWood,instance of,ASIN
+B083J1Y349,manufacturer,
+,manufacturer,GIDIBII
+B083J1Y349,manufacturer,Nail Clipper Kit
+Nail Clipper Kit,manufacturer,GIDIBII
+B08QFGV5ZQ,instance of,
+B08QFGV5ZQ,instance of,ALIANNA
+ALIANNA,instance of,ASIN
+B07J3GH1W1,different from,
+,different from,pedicures
+B07J3GH1W1,different from,pedicures
+pedicures,different from,manicures
+B08P4YQ3K5,instance of,
+B08P4YQ3K5,instance of,ROSEFEAST
+ROSEFEAST,instance of,Brand
+ROSEFEAST,instance of,ASIN
+B00O2FGBJS,country,
+B00O2FGBJS,country,Argan Magic
+Argan Magic,country,USA
+B00O2FGBJS,country of origin,
+B00O2FGBJS,country of origin,Argan Magic
+Argan Magic,country of origin,USA
+B0BTJ6SYKB,owned by,
+,owned by,Shakira
+B0BTJ6SYKB,owner of,Shakira
+Shakira,owner of,Shakira Perfumes
+B089ZQ8Y95,use,
+,use,aromatherapy
+B089ZQ8Y95,uses,aromatherapy
+aromatherapy,uses,essential oil
+B08YJV9YL2,product or material produced,
+,product or material produced,fragrance
+B08YJV9YL2,product or material produced,Bouquet Garni
+Bouquet Garni,product or material produced,fragrance
+B08NJ5BTWG,use,
+,use,Sun Protection
+B08NJ5BTWG,use,PA++++
+PA++++,use,Sun Protection
+B089RLLT5C,country,
+B089RLLT5C,country,WELLUTION
+WELLUTION,country,USA
+B08CZ5JZMZ,manufacturer,
+,manufacturer,Lahien
+B08BLKFGND,instance of,
+B08BLKFGND,instance of,YsesoAi
+YsesoAi,instance of,ASIN
+B0BG6WX4DH,country,
+,country,Canada
+B0BG6WX4DH,country,AG Care
+AG Care,country,Canada
+B07YV9J2YZ,manufacturer,
+,manufacturer,Logiverl
+B08KT7FCYY,instance of,
+B08KT7FCYY,instance of,Rancco
+Rancco,instance of,ASIN
+B082MDFNZM,instance of,
+B082MDFNZM,instance of,Baasha
+Baasha,instance of,ASIN
+B08JPKXJMV,instance of,
+B08JPKXJMV,instance of,Altaba
+Altaba,instance of,ASIN
+B08JPKXJMV,owned by,
+,owned by,Altaba
+B089YGZZYP,instance of,
+B089YGZZYP,instance of,YAPASPT
+YAPASPT,instance of,ASIN
+B08S2LYN64,part of,
+,part of,Style
+B08S2LYN64,has part,Style
+Style,has part,Hair Type
+B086N2SY91,instance of,
+B086N2SY91,instance of,QTMY
+QTMY,instance of,ASIN
+B08BZ1RHPS,instance of,
+,instance of,Serum
+B08BZ1RHPS,instance of,MD Complete
+MD Complete,instance of,Serum
+B08GS1G9BH,instance of,
+B08GS1G9BH,instance of,SOOAE
+SOOAE,instance of,ASIN
+B08W8LKLHB,use,
+,use,Nail Polish
+B08W8LKLHB,uses,Nail Polish
+Nail Polish,uses,Gel
+B09SH1FD9S,product or material produced,
+B09SH1FD9S,product or material produced,Kopari
+Kopari,product or material produced,Skin Care
+,product or material produced,Skin care
+Kopari,product or material produced,Skin care
+B07LCHCD6Q,manufacturer,
+,manufacturer,SOOCAS
+B08XJWLLKQ,manufacturer,
+,manufacturer,John Frieda
+B08XJWLLKQ,manufacturer,John Frieda Detox and Repair
+John Frieda Detox and Repair,manufacturer,John Frieda
+B08XJWLLKQ,owned by,
+,owned by,John Frieda
+B08XJWLLKQ,owned by,John Frieda Detox and Repair
+John Frieda Detox and Repair,owned by,John Frieda
+B0B2L218H2,product or material produced,
+,product or material produced,eau_de_parfum
+B0B2L218H2,product or material produced,PINROSE
+PINROSE,product or material produced,eau_de_parfum
+B086VK22QT,instance of,
+B086VK22QT,instance of,Zoostliss
+Zoostliss,instance of,Brand
+B0914JBBTV,country of origin,
+,country of origin,Japan
+B0914JBBTV,country,Bioré
+Bioré,country,Japan
+B08RQZ3F3L,manufacturer,
+B08CVCLVS2,manufacturer,
+,manufacturer,Anzuo
+B081D2R47W,product or material produced,
+,product or material produced,elastic
+B081D2R47W,product or material produced,Qiray
+Qiray,product or material produced,elastic
+B08N6YHQXT,instance of,
+,instance of,Scent
+B08N6YHQXT,instance of,Grapefruit
+Grapefruit,instance of,Scent
+B08QHP717Z,instance of,
+B08QHP717Z,instance of,Nxconsu
+Nxconsu,instance of,ASIN
+B08QHP717Z,product or material produced,
+,product or material produced,Headbands
+B08QHP717Z,product or material produced,Nxconsu
+Nxconsu,product or material produced,Headbands
+B0842BXM5M,instance of,
+B0842BXM5M,instance of,The Henna Guys
+The Henna Guys,instance of,ASIN
+B0842BXM5M,product or material produced,
+,product or material produced,Gel
+B0842BXM5M,product or material produced,The Henna Guys
+The Henna Guys,product or material produced,Gel
+B08VDCWKHV,instance of,
+B08VDCWKHV,instance of,WAXNOW
+WAXNOW,instance of,ASIN
+B08CC6YRLJ,product or material produced,
+,product or material produced,Nail Art Brush
+B08CC6YRLJ,product or material produced,YOLIFE
+YOLIFE,product or material produced,Nail Art Brush
+B09671G4KH,manufacturer,
+,manufacturer,TIANG
+B09671G4KH,instance of,
+B09671G4KH,instance of,TIANG
+TIANG,instance of,ASIN
+B081MQD52C,instance of,
+B081MQD52C,instance of,Manilla Natural Skincare
+Manilla Natural Skincare,instance of,ASIN
+B0851QJPZY,manufacturer,
+,manufacturer,Gentlehomme
+B0713VF172,manufacturer,
+,manufacturer,Raise Them Well
+B01EK2F1PC,instance of,
+B01EK2F1PC,instance of,LILAH B
+LILAH B,instance of,ASIN
+B08BRS98SF,product or material produced,
+,product or material produced,Pedicure Tools
+B08BRS98SF,product or material produced,Wonder4
+Wonder4,product or material produced,Pedicure Tools
+,product or material produced,11.4 Ounce
+Wonder4,product or material produced,11.4 Ounce
+B01N7A5AGF,instance of,
+,instance of,Cream
+B01N7A5AGF,instance of,Easydew
+Easydew,instance of,Cream
+B088YHN4JT,instance of,
+B088YHN4JT,instance of,EagleKing
+EagleKing,instance of,Brand
+B083B67373,subclass of,
+,subclass of,Cream
+B083B67373,subclass of,Moisturizing
+Moisturizing,subclass of,Cream
+B07YS9W97B,manufacturer,
+,manufacturer,Cosmax
+B07YS9W97B,manufacturer,DW-EGF
+DW-EGF,manufacturer,Cosmax
+B07YS9W97B,subclass of,
+,subclass of,protein
+B07YS9W97B,subclass of,elastin
+elastin,subclass of,protein
+B0851T7HDS,has part,
+B0851T7HDS,has part,JUST FOR TOTS BY MAD
+JUST FOR TOTS BY MAD,has part,Vitamin E
+B0895XPZNT,manufacturer,
+,manufacturer,QTMY
+B0895XPZNT,manufacturer,QTMY Fashion Rhinestone Flower Headband
+QTMY Fashion Rhinestone Flower Headband,manufacturer,QTMY
+B08P2DZB4X,subject has role,
+,subject has role,anti-aging
+B08P2DZB4X,subject has role,NIRA Anti-Aging Laser
+NIRA Anti-Aging Laser,subject has role,anti-aging
+B08T7GPT1D,manufacturer,
+,manufacturer,FlorONA
+B07Z548TKH,instance of,
+B07Z548TKH,instance of,Color Technik
+Color Technik,instance of,ASIN
+B08R3F946X,instance of,
+B08R3F946X,instance of,LXIANGN
+LXIANGN,instance of,ASIN
+B08L6GXY2S,manufacturer,
+,manufacturer,OVLUX
+B086Q2J3F2,product or material produced,
+,product or material produced,headband
+B086Q2J3F2,product or material produced,QTMY
+QTMY,product or material produced,headband
+B0851C4YPC,manufacturer,
+,manufacturer,THESAEM
+B08C71WBLC,product or material produced,
+,product or material produced,Serum
+B08C71WBLC,product or material produced,Manilla Natural Skincare
+Manilla Natural Skincare,product or material produced,Serum
+B08C71WBLC,instance of,
+B08C71WBLC,instance of,Manilla Natural Skincare
+B07HN1L8NQ,instance of,
+,instance of,Eye Mask
+B088TYPM71,instance of,
+B088TYPM71,instance of,Untangled
+Untangled,instance of,ASIN
+B085NYYLQ8,different from,
+,different from,Item model number
+B085NYYLQ8,different from,Item model number
+Item model number,different from,ASIN
+B088TGQFNM,instance of,
+B088TGQFNM,instance of,JORLAI
+JORLAI,instance of,ASIN
+B0BC273JJR,parent organization,
+,parent organization,Zupishi
+B0BC273JJR,parent organization,RC Red Carpet Manicure
+RC Red Carpet Manicure,parent organization,Zupishi
+B0BC273JJR,owned by,
+,owned by,Zupishi
+B0BC273JJR,owned by,RC Red Carpet Manicure
+RC Red Carpet Manicure,owned by,Zupishi
+B085J24382,country,
+B085J24382,country,Mr. Pristine
+Mr. Pristine,country,Canada
+B08SBV6Z57,instance of,
+,instance of,Color
+B08SBV6Z57,instance of,Buff
+Buff,instance of,Color
+B087FTZSZH,instance of,
+B087FTZSZH,instance of,Lorelo
+Lorelo,instance of,ASIN
+B088NVJSJT,has part,
+,has part,Nail Drill Bits
+B088NVJSJT,part of,Nail Drill Bits
+Nail Drill Bits,part of,Nail Drill
+B08C37KWRR,product or material produced,
+,product or material produced,Facial Cream
+B08C37KWRR,product or material produced,LA LA LEAF
+LA LA LEAF,product or material produced,Facial Cream
+,product or material produced,All Natural Facial Cream
+LA LA LEAF,product or material produced,All Natural Facial Cream
+B082VYX7G8,instance of,
+B082VYX7G8,instance of,Lassie
+Lassie,instance of,Brand
+B0859CYSTM,has part,
+,has part,Cica
+B08L3J4FB9,has part,
+,has part,Hyaluronic Acid
+B08L3J4FB9,has part,Cicaluronic
+Cicaluronic,has part,Hyaluronic Acid
+,has part,Hyaluronic Acids
+Cicaluronic,has part,Hyaluronic Acids
+B08L3J4FB9,owned by,
+,owned by,MIZON
+B08L3J4FB9,owned by,Cicaluronic
+Cicaluronic,owned by,MIZON
+B0813ZQG3T,country,
+B0813ZQG3T,country,Color Me Cosmetics
+Color Me Cosmetics,country,USA
+B08FBHNBP1,manufacturer,
+,manufacturer,Vedory
+B08FBHNBP1,manufacturer,3D Inner Bracket
+3D Inner Bracket,manufacturer,Vedory
+B08RY6S25W,different from,
+B08RY6S25W,different from,Conditioner
+B08RY6S25W,manufacturer,
+,manufacturer,PURE NATURE LUX SPA
+B08L3W279N,instance of,
+B08L3W279N,instance of,SAISZE
+SAISZE,instance of,ASIN
+B08GC5GSNG,instance of,
+B08GC5GSNG,instance of,ZDU
+ZDU,instance of,ASIN
+B087ZQG11L,manufacturer,
+,manufacturer,HGI Brands
+B087ZQG11L,manufacturer,Maya Mari
+Maya Mari,manufacturer,HGI Brands
+B087ZQG11L,owned by,
+,owned by,HGI Brands
+B087ZQG11L,owned by,Maya Mari
+Maya Mari,owned by,HGI Brands
+B088X2WPTX,instance of,
+B088X2WPTX,instance of,AUGNORYE
+AUGNORYE,instance of,ASIN
+B088X2WPTX,manufacturer,
+,manufacturer,AUGNORYE
+B08KWN77LW,instance of,
+B08KWN77LW,instance of,GENSKIN
+GENSKIN,instance of,ASIN
+B08B3SJNL5,use,
+,use,Painting
+B08B3SJNL5,use,Dotting Pen
+Dotting Pen,use,Painting
+B08MPK4JRB,instance of,
+B08MPK4JRB,instance of,LUXAZA
+LUXAZA,instance of,Brand
+B08DNCR582,manufacturer,
+,manufacturer,STRONGLO
+B084ZHP45Y,instance of,
+,instance of,sunscreen
+B084ZHP45Y,instance of,Coppertone Kids SPF 50 Clear Sunscreen
+Coppertone Kids SPF 50 Clear Sunscreen,instance of,sunscreen
+B084ZHP45Y,manufacturer,
+,manufacturer,Coppertone
+B084ZHP45Y,manufacturer,Coppertone Kids SPF 50 Clear Sunscreen
+Coppertone Kids SPF 50 Clear Sunscreen,manufacturer,Coppertone
+B08DXCVRNY,instance of,
+B08DXCVRNY,instance of,COSMOCOS
+COSMOCOS,instance of,ASIN
+B07ZJX5MNJ,instance of,
+B07ZJX5MNJ,instance of,JARGOD
+JARGOD,instance of,ASIN
+B084WP4XS8,product or material produced,
+,product or material produced,Active Ingredients
+B084WP4XS8,product or material produced,CELIMAX
+CELIMAX,product or material produced,Active Ingredients
+B088ZVSLYP,instance of,
+B088ZVSLYP,instance of,Azun
+Azun,instance of,Brand
+B0876VC4KM,manufacturer,
+B086SSHLWT,owned by,
+,owned by,SIKEMAY
+B086SSHLWT,instance of,
+,instance of,Mascara
+B07PZ8JNWJ,owned by,
+,owned by,South Of France LLC
+B07PZ8JNWJ,owned by,South of France Natural Body Care
+South of France Natural Body Care,owned by,South Of France LLC
+B08KY7VYDS,instance of,
+B08KY7VYDS,instance of,Canple
+Canple,instance of,ASIN
+B087GD4BJ1,manufacturer,
+,manufacturer,Eyenjoy
+B087GD4BJ1,manufacturer,Magnetic Eyelashes
+Magnetic Eyelashes,manufacturer,Eyenjoy

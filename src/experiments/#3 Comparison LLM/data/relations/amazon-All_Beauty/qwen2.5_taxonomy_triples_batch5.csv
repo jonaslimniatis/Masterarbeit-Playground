@@ -1,0 +1,77 @@
+head,relation,tail
+Product details,is parent of,Skincare
+Skincare,is parent of,Multivitamins almond
+Skincare,is parent of,Care package
+Skincare,is parent of,Skin types
+Skincare,is parent of,Facial care
+Product details,is parent of,Grooming
+Grooming,is parent of,Lightweight breathable
+Grooming,is parent of,Showers shower
+Grooming,is parent of,Maintain hairstyle
+Grooming,is parent of,Cap women
+Grooming,is parent of,Disposable plastic
+Product details,is parent of,Beauty tools and accessories
+Beauty tools and accessories,is parent of,Use pencil
+Beauty tools and accessories,is parent of,Powder convenience
+Beauty tools and accessories,is parent of,Makeup enthusiasts
+Beauty tools and accessories,is parent of,Magic star
+Beauty tools and accessories,is parent of,Pippa london
+Product details,is parent of,Hair care
+Hair care,is parent of,Teqifu hair
+Hair care,is parent of,Revitalizing scalp
+Hair care,is parent of,Comfortable cleanse
+Hair care,is parent of,Brushes effectively
+Hair care,is parent of,Massage
+Product details,is parent of,Eyelash care
+Eyelash care,is parent of,Curler features
+Eyelash care,is parent of,Jdo eyelash
+Eyelash care,is parent of,Elevate lash
+Eyelash care,is parent of,Mascara value
+B08LYT4Q2X,related to,Skincare
+B08LYT4Q2X,related to,Hair care
+B08LYT4Q2X,related to,Grooming
+B08LYT4Q2X,related to,Skin types
+B08LYT4Q2X,related to,Facial care
+B08LYT4Q2X,related to,Multivitamins almond
+B08LYT4Q2X,related to,Lightweight breathable
+B08LYT4Q2X,related to,Maintain hairstyle
+B08LYT4Q2X,related to,Teqifu hair
+B081ZN3TD5,related to,Grooming
+B081ZN3TD5,related to,Hair care
+B081ZN3TD5,related to,Showers shower
+B081ZN3TD5,related to,Maintain hairstyle
+B08WF29DM9,related to,Skincare
+B08WF29DM9,related to,Skin types
+B08HMLXW65,related to,Hair care
+B08HMLXW65,related to,Maintain hairstyle
+B08HMLXW65,related to,Teqifu hair
+B08BF4BKKM,related to,Skincare
+B08BF4BKKM,related to,Hair care
+B08BF4BKKM,related to,Eyelash care
+B08BF4BKKM,related to,Multivitamins almond
+B08BF4BKKM,related to,Care package
+B08BF4BKKM,related to,Facial care
+B08BF4BKKM,related to,Skin types
+B09GNXK3N1,related to,Grooming
+B09GNXK3N1,related to,Hair care
+B09GNXK3N1,related to,Lightweight breathable
+B09GNXK3N1,related to,Showers shower
+B09GNXK3N1,related to,Maintain hairstyle
+B09GNXK3N1,related to,Cap women
+B09GNXK3N1,related to,Disposable plastic
+B08JCX3DL7,related to,Use pencil
+B08JCX3DL7,related to,Powder convenience
+B08JCX3DL7,related to,Makeup enthusiasts
+B08JCX3DL7,related to,Magic star
+B08JCX3DL7,related to,Pippa london
+B08SQ31H8P,related to,Hair care
+B08SQ31H8P,related to,Teqifu hair
+B08SQ31H8P,related to,Revitalizing scalp
+B08SQ31H8P,related to,Comfortable cleanse
+B08SQ31H8P,related to,Brushes effectively
+B08SQ31H8P,related to,Massage
+B08C24Q6LB,related to,Eyelash care
+B08C24Q6LB,related to,Curler features
+B08C24Q6LB,related to,Jdo eyelash
+B08C24Q6LB,related to,Elevate lash
+B08C24Q6LB,related to,Mascara value

@@ -1,0 +1,20 @@
+relation,id
+rated,0
+instance of,1
+country,2
+manufacturer,3
+contains administrative territorial entity,4
+subclass of,5
+product or material produced,6
+field of this occupation,7
+part of,8
+owned by,9
+country of origin,10
+inception,11
+different from,12
+has part,13
+use,14
+owner of,15
+uses,16
+subject has role,17
+parent organization,18
