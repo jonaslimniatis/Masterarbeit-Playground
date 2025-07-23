@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%232%20Taxonomy%20without%20redundancies/mlruns/924155376979111887/72eb05342019420d855869c64affeeec/artifacts
+deleted_time: 1746675150470
+end_time: 1746652606826
+entry_point_name: ''
+experiment_id: '924155376979111887'
+lifecycle_stage: deleted
+run_id: 72eb05342019420d855869c64affeeec
+run_name: amazon-All_Beauty-wo-direct-parents-11-Hops
+run_uuid: 72eb05342019420d855869c64affeeec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746652556025
+status: 3
+tags: []
+user_id: U725801

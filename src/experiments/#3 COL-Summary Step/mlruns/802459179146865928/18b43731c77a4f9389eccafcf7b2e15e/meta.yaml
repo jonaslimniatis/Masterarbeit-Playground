@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%233%20COL-Summary%20Step/mlruns/802459179146865928/18b43731c77a4f9389eccafcf7b2e15e/artifacts
+end_time: 1747330252187
+entry_point_name: ''
+experiment_id: '802459179146865928'
+lifecycle_stage: active
+run_id: 18b43731c77a4f9389eccafcf7b2e15e
+run_name: amazon-Video_Games-wo-grand-parents-11-Hops
+run_uuid: 18b43731c77a4f9389eccafcf7b2e15e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747330061471
+status: 3
+tags: []
+user_id: U725801

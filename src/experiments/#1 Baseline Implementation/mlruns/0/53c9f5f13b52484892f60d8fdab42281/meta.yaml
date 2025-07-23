@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Baseline%20Implementation/mlruns/0/53c9f5f13b52484892f60d8fdab42281/artifacts
+end_time: 1748287493000
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 53c9f5f13b52484892f60d8fdab42281
+run_name: amazon-Video_Games-6-Hops
+run_uuid: 53c9f5f13b52484892f60d8fdab42281
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748285945735
+status: 3
+tags: []
+user_id: U725801

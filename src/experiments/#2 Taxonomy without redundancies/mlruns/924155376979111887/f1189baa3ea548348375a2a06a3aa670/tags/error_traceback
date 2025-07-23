@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/var/folders/33/fw5wlwpj4b78_xvtgsm72q6r0000gq/T/ipykernel_79425/4219957678.py", line 338, in <module>
+    inner_updates = (iteration // itup) if itup > 0 and epoch % epup == 0 and iteration > 10 else 0
+                                           ^^^^
+NameError: name 'itup' is not defined

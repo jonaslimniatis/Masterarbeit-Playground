@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Comparison%20Techniques/mlruns/384649787284289631/c356fbd076974d52af191cdd205432e2/artifacts
+deleted_time: 1746463604180
+end_time: 1746461155766
+entry_point_name: ''
+experiment_id: '384649787284289631'
+lifecycle_stage: deleted
+run_id: c356fbd076974d52af191cdd205432e2
+run_name: all-MiniLM-L6-v2
+run_uuid: c356fbd076974d52af191cdd205432e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746461155635
+status: 4
+tags: []
+user_id: U725801

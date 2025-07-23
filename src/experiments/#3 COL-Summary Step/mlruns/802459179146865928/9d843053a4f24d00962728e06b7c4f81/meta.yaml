@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%233%20COL-Summary%20Step/mlruns/802459179146865928/9d843053a4f24d00962728e06b7c4f81/artifacts
+end_time: 1748363168246
+entry_point_name: ''
+experiment_id: '802459179146865928'
+lifecycle_stage: active
+run_id: 9d843053a4f24d00962728e06b7c4f81
+run_name: unequaled-steed-305
+run_uuid: 9d843053a4f24d00962728e06b7c4f81
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748363168232
+status: 3
+tags: []
+user_id: U725801

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%233%20COL-Summary%20Step/mlruns/802459179146865928/b3d5e36e247644ae870eb840d3d33208/artifacts
+end_time: 1749429065030
+entry_point_name: ''
+experiment_id: '802459179146865928'
+lifecycle_stage: active
+run_id: b3d5e36e247644ae870eb840d3d33208
+run_name: learned-ray-473
+run_uuid: b3d5e36e247644ae870eb840d3d33208
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749429065004
+status: 3
+tags: []
+user_id: U725801

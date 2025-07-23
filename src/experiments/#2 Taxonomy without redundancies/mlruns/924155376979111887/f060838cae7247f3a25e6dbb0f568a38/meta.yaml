@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%232%20Taxonomy%20without%20redundancies/mlruns/924155376979111887/f060838cae7247f3a25e6dbb0f568a38/artifacts
+deleted_time: 1746477698647
+end_time: 1746469048659
+entry_point_name: ''
+experiment_id: '924155376979111887'
+lifecycle_stage: deleted
+run_id: f060838cae7247f3a25e6dbb0f568a38
+run_name: amazon-All_Beauty-wo-grand-parents-3-Hops
+run_uuid: f060838cae7247f3a25e6dbb0f568a38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746469023326
+status: 3
+tags: []
+user_id: U725801

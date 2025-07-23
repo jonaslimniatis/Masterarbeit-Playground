@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Baseline%20Implementation/mlruns/0/c9769a39358e4da8b5d9df62a3ae54ca/artifacts
+end_time: 1748293657544
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c9769a39358e4da8b5d9df62a3ae54ca
+run_name: fun-worm-437
+run_uuid: c9769a39358e4da8b5d9df62a3ae54ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748293657527
+status: 3
+tags: []
+user_id: U725801

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Comparison%20Techniques/mlruns/631604563339969228/868d777670704134abdec2fbbffd4f75/artifacts
+end_time: 1746464294515
+entry_point_name: ''
+experiment_id: '631604563339969228'
+lifecycle_stage: active
+run_id: 868d777670704134abdec2fbbffd4f75
+run_name: amazon-All_Beauty
+run_uuid: 868d777670704134abdec2fbbffd4f75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746464294468
+status: 3
+tags: []
+user_id: U725801

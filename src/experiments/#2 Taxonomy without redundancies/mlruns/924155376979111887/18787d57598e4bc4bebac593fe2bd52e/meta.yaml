@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%232%20Taxonomy%20without%20redundancies/mlruns/924155376979111887/18787d57598e4bc4bebac593fe2bd52e/artifacts
+end_time: 1751871838395
+entry_point_name: ''
+experiment_id: '924155376979111887'
+lifecycle_stage: active
+run_id: 18787d57598e4bc4bebac593fe2bd52e
+run_name: learned-ray-473
+run_uuid: 18787d57598e4bc4bebac593fe2bd52e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751871838367
+status: 3
+tags: []
+user_id: U725801

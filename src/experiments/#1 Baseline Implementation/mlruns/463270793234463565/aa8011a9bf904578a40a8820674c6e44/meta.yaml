@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Baseline%20Implementation/mlruns/463270793234463565/aa8011a9bf904578a40a8820674c6e44/artifacts
+end_time: 1751884963761
+entry_point_name: ''
+experiment_id: '463270793234463565'
+lifecycle_stage: active
+run_id: aa8011a9bf904578a40a8820674c6e44
+run_name: amazon-Video_Games-Baseline-gemma3-11-Hops
+run_uuid: aa8011a9bf904578a40a8820674c6e44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751874617348
+status: 3
+tags: []
+user_id: U725801

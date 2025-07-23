@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Comparison%20Techniques/mlruns/384649787284289631/eab4b74b67784aa7984940ed2e2ba401/artifacts
+deleted_time: 1746463604180
+end_time: 1746461884739
+entry_point_name: ''
+experiment_id: '384649787284289631'
+lifecycle_stage: deleted
+run_id: eab4b74b67784aa7984940ed2e2ba401
+run_name: gemma3_Hops3
+run_uuid: eab4b74b67784aa7984940ed2e2ba401
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746461884643
+status: 3
+tags: []
+user_id: U725801

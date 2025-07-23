@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%232%20Taxonomy%20without%20redundancies/mlruns/924155376979111887/2474102c41864a128000b26a0a17e337/artifacts
+end_time: 1747240618319
+entry_point_name: ''
+experiment_id: '924155376979111887'
+lifecycle_stage: active
+run_id: 2474102c41864a128000b26a0a17e337
+run_name: amazon-Video_Games-wo-direct-parents-6-Hops
+run_uuid: 2474102c41864a128000b26a0a17e337
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747240427239
+status: 3
+tags: []
+user_id: U725801

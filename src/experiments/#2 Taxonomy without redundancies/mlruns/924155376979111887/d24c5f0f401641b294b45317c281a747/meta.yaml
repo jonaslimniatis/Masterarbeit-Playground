@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%232%20Taxonomy%20without%20redundancies/mlruns/924155376979111887/d24c5f0f401641b294b45317c281a747/artifacts
+deleted_time: 1746477698696
+end_time: 1746465405277
+entry_point_name: ''
+experiment_id: '924155376979111887'
+lifecycle_stage: deleted
+run_id: d24c5f0f401641b294b45317c281a747
+run_name: gemma3__taxonomy-triples-wo-grand-parents_H5
+run_uuid: d24c5f0f401641b294b45317c281a747
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746465405255
+status: 3
+tags: []
+user_id: U725801

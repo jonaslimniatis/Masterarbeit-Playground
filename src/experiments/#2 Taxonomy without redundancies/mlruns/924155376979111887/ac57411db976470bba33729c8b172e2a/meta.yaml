@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%232%20Taxonomy%20without%20redundancies/mlruns/924155376979111887/ac57411db976470bba33729c8b172e2a/artifacts
+deleted_time: 1746477698700
+end_time: 1746465222467
+entry_point_name: ''
+experiment_id: '924155376979111887'
+lifecycle_stage: deleted
+run_id: ac57411db976470bba33729c8b172e2a
+run_name: gemma3_with_redundancies_H13
+run_uuid: ac57411db976470bba33729c8b172e2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746465222450
+status: 3
+tags: []
+user_id: U725801

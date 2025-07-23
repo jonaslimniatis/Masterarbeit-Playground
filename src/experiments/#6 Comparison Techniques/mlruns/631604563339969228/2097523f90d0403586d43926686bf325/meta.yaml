@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Comparison%20Techniques/mlruns/631604563339969228/2097523f90d0403586d43926686bf325/artifacts
+end_time: 1746466301224
+entry_point_name: ''
+experiment_id: '631604563339969228'
+lifecycle_stage: active
+run_id: 2097523f90d0403586d43926686bf325
+run_name: amazon-Video_Games
+run_uuid: 2097523f90d0403586d43926686bf325
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746466301200
+status: 3
+tags: []
+user_id: U725801

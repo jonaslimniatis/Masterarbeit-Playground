@@ -126,13 +126,11 @@ device = torch.device("cuda:" + str(args.gpu_id)) if (args.cuda and torch.cuda.i
 BATCH_SIZE = args.test_batch_size
 batch_test_flag = args.batch_test_flag
 
-# … (keep all your helper funcs: ranklist_by_heapq, get_auc, etc.) …
-
 def test(model, user_dict, n_params):
     result = {'precision': np.zeros(len(Ks)),
               'recall': np.zeros(len(Ks)),
               'ndcg': np.zeros(len(Ks)),
-              'hit_ratio': np.zeros(len(Ks)),
+              'hit_ratio': np.zeros(len(Ks)), 
               'auc': 0.}
     
     # NEW: prepare list for collecting predictions
@@ -154,6 +152,11 @@ def test(model, user_dict, n_params):
         start = batch_id * BATCH_SIZE
         end   = min((batch_id + 1) * BATCH_SIZE, n_test_users)
         user_list_batch = test_users[start:end]
+        
+        # Skip empty batches
+        if not user_list_batch:
+            continue
+            
         user_tensor = torch.LongTensor(user_list_batch).to(device)
         u_emb_batch = user_gcn_emb[user_tensor]
 
@@ -168,24 +171,16 @@ def test(model, user_dict, n_params):
                 sub_scores = model.rating(u_emb_batch, i_emb).detach().cpu().numpy()
                 rate_batch[:, i_start:i_end] = sub_scores
         else:
-            # all-items at once
             item_tensor = torch.arange(0, n_items, dtype=torch.long).to(device)
             i_emb = entity_gcn_emb[item_tensor]
             rate_batch = model.rating(u_emb_batch, i_emb).detach().cpu().numpy()
 
-        # Added by Jonas Limniatis
-        # collect per-(user,item) predictions + actual
-        for row_idx, uid in enumerate(user_list_batch):
-            actual_set = test_user_set[uid]
-            for item_id, pred in enumerate(rate_batch[row_idx]):
-                actual = 1 if item_id in actual_set else 0
-                predictions.append((uid, item_id, float(pred), actual))
-
-        # now do your normal per-user metric aggregation via multiprocessing
+        # FIXED: Always define user_args before using it
         user_args = [
             (rate_batch[row_idx], uid, train_user_set, test_user_set, n_items)
             for row_idx, uid in enumerate(user_list_batch)
         ]
+        
         batch_results = pool.map(test_one_user, user_args)
 
         for res in batch_results:
@@ -194,15 +189,22 @@ def test(model, user_dict, n_params):
             result['ndcg']       += res['ndcg']       / n_test_users
             result['hit_ratio']  += res['hit_ratio']  / n_test_users
             result['auc']        += res['auc']        / n_test_users
+        
+        # Added by Jonas Limniatis
+        # collect per-(user,item) predictions + actual
+        for row_idx, uid in enumerate(user_list_batch):
+            actual_set = test_user_set[uid]
+            for item_id, pred in enumerate(rate_batch[row_idx]):
+                actual = 1 if item_id in actual_set else 0
+                predictions.append((uid, item_id, float(pred), actual))
 
     pool.close()
-
+        
     # Added by Jonas Limniatis
     # convert to DataFrame and save
     df_preds = pd.DataFrame(predictions,
                             columns=['user_id','item_id','prediction','actual'])
-    #df_preds.to_csv("all_predictions.csv", index=False)
-    #print("Saved predictions to all_predictions.csv")
+    print("Created predictions DataFrame with shape:", df_preds.shape)
     
-    # optionally return the DataFrame as well
+    # Return both the metrics and the predictions DataFrame
     return result, df_preds

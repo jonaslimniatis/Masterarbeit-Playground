@@ -20,15 +20,16 @@ n_relations = 0
 
 def get_feed_dict(train_entity_pairs, start, end, train_user_set):
 
-    def negative_sampling(user_item, train_user_set):
+    def negative_sampling(user_item, train_user_set, neg_ratio=5):
         neg_items = []
         for user, _ in user_item.cpu().numpy():
             user = int(user)
-            while True:
-                neg_item = np.random.randint(low=0, high=n_items, size=1)[0]
-                if neg_item not in train_user_set[user]:
-                    break
-            neg_items.append(neg_item)
+            for _ in range(neg_ratio):  # Sample neg_ratio negatives per positive
+                while True:
+                    neg_item = np.random.randint(low=0, high=n_items, size=1)[0]
+                    if neg_item not in train_user_set[user]:
+                        break
+                neg_items.append(neg_item)
         return neg_items
 
     feed_dict = {}
@@ -36,7 +37,7 @@ def get_feed_dict(train_entity_pairs, start, end, train_user_set):
     feed_dict['users'] = entity_pairs[:, 0]
     feed_dict['pos_items'] = entity_pairs[:, 1]
     feed_dict['neg_items'] = torch.LongTensor(negative_sampling(entity_pairs,
-                                                                train_user_set)).to(device)
+                                                                train_user_set, args.neg_ratio)).to(device)
     return feed_dict
 
 

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%234%20Linking%20treshhold/mlruns/979055155990099598/ad71d1a6eb2d48b9b35cbaa6293aad2b/artifacts
+end_time: 1747769364442
+entry_point_name: ''
+experiment_id: '979055155990099598'
+lifecycle_stage: active
+run_id: ad71d1a6eb2d48b9b35cbaa6293aad2b
+run_name: amazon-Video_Games-wo-grand-parents-09-3-Hops
+run_uuid: ad71d1a6eb2d48b9b35cbaa6293aad2b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747769121895
+status: 3
+tags: []
+user_id: U725801

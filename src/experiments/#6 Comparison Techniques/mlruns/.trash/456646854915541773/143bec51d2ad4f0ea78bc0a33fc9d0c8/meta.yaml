@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Comparison%20Techniques/mlruns/456646854915541773/143bec51d2ad4f0ea78bc0a33fc9d0c8/artifacts
+deleted_time: 1746464104237
+end_time: 1746463586584
+entry_point_name: ''
+experiment_id: '456646854915541773'
+lifecycle_stage: deleted
+run_id: 143bec51d2ad4f0ea78bc0a33fc9d0c8
+run_name: amazon-All_Beauty_KG_Stats_vs_Accuracy_Correlation
+run_uuid: 143bec51d2ad4f0ea78bc0a33fc9d0c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746463586553
+status: 3
+tags: []
+user_id: U725801

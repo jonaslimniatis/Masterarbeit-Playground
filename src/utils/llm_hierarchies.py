@@ -6,12 +6,13 @@ import pandas as pd
 import os
 import time
 import numpy as np
-
+import mlflow
+from langchain_openai import ChatOpenAI
 
 class LLMHierarchyCOL:
     def __init__(self, llm_name: str):
         # initialize LLM once
-        self.llm = OllamaLLM(model=llm_name, temperature=0.1)
+        self.llm = OllamaLLM(model=llm_name, temperature=0)
 
         # --- detailed summary chain ---
         detailed_system = """
@@ -50,12 +51,12 @@ Critical rules
 - ALL ENTITIES FROM THE LIST MUST APPEAR IN THE TAXONOMY IF FEASIBLE
 - YOU ARE ALLOWED TO ADD OTHER ENTITIES IF THEY MAKE SENSE, DON'T HALLUCINATE
 - MERGE ENTITIES WITH THE SAME NAME
-- EXCLUDE ENTITIES WITH NO INFORMATION DETAIL FOR THE PARENT CONCEPT
-- YOU ARE ALLOWED TO ADD OTHER ENTITIES IF THEY MAKE SENSE, DON'T HALLUCINATE
+- KEEP THE NUMBERING FORMAT
+- SUMMARIZE ENTITIES IF NEEDED TO MAKE THE TAXONOMY MORE COMPACT
 - ONLY RETURN THE TAXONOMY
 """
         gen_user = """
-The root entity is {root_concept}, the taxonomy in the current step is:
+The root entity is {root_concept}, the taxonomy  in the current step is:
 {taxonomy}
 
 The entity list for this step contains:
@@ -78,7 +79,6 @@ You may relocate child nodes to new parents and add nodes if necessary.
 Critical rules
 - DO NOT ADD ANY COMMENTS OR EXPLANATIONS
 - THERE IS ONE AND ONLY ONE ROOT NODE
-- ALL ENTITIES MUST APPEAR IF FEASIBLE
 - YOU ARE ALLOWED TO ADD OTHER ENTITIES IF THEY MAKE SENSE, DON'T HALLUCINATE
 - MERGE ENTITIES WITH THE SAME NAME
 - EXCLUDE ENTITIES WITH NO DETAIL
@@ -131,6 +131,35 @@ Product description:
         )
         self.review_chain = review_tpl | self.llm
 
+        summary_system = """
+        You are an expert in summarizing a generated hierarchical taxonomy.
+        Your task is to summarize a give taxonomy.
+
+        The taxonomy contains multiple levels. It has ONE Parent Concept, One or multiple Child Entities and for each Child Entities one or multiple Grandchilds Entities and so on ...
+        Review the given hierarchical taxonomy. Summarize entities to make the taxonomy more compact. Only summarize entities if it makes sense, otherwise keep them how they were. Also you are allowed to rename entities if necessary.
+
+
+        Critical rules:
+        - DO NOT ADD ANY COMMENTS OR EXPLANATIONS
+        - THERE IS ONE AND ONLY ONE ROOT NODE
+        - DO NOT HALLUCINATE
+        - MERGE ENTITIES WITH THE SAME NAME
+        - EXCLUDE ENTITIES WITH NO DETAIL
+        - KEEP THE NUMBERING FORMAT
+        - ONLY RETURN THE TAXONOMY
+
+
+        """
+        summary_user = """
+        The root entity is {root_concept}.
+        Taxonomy to summarize:
+        {taxonomy}
+        """
+        summary_tpl = ChatPromptTemplate(
+            messages=[("system", summary_system), ("user", summary_user)],
+            input_variables=["root_concept", "taxonomy"]
+        )
+        self.summary_chain = summary_tpl | self.llm
         # --- embedding & keyword models ---
         self.embed_model = SentenceTransformer('all-MiniLM-L6-v2')
         self.embed_kw_model = SentenceTransformer("sentence-transformers/paraphrase-mpnet-base-v2")
@@ -143,7 +172,7 @@ Product description:
         raw = self.kw_model.extract_keywords(
             detailed_summary,
             keyphrase_ngram_range=(1, 2),
-            top_n=10,
+            top_n=5,
             stop_words="english",
             use_maxsum=True
         )
@@ -163,7 +192,10 @@ Product description:
             "list_entities": list_keywords,
             "taxonomy": taxonomy
         })
-
+    def summary_tax(self, root_concept:str,taxonomy: str) -> str:
+        return self.summary_chain.invoke({
+            "taxonomy": taxonomy,"root_concept": root_concept
+        })
     def review(self, detailed_summary: str, taxonomy: str, root_concept: str, list_keywords: list) -> bool:
         out = self.review_chain.invoke({
             "root_concept": root_concept,
@@ -208,7 +240,11 @@ Product description:
         T = self.embed_model.encode(tails)  # (n, d)
 
         new_links = []
+        print(len(dict_asin_keywords))
+        iteration = 0
         for asin, kws in dict_asin_keywords.items():
+            iteration += 1
+            print(f"Iteration {iteration}")
             K = self.embed_model.encode(kws)  # (k, d)
             sim_h = K @ H.T                  # (k, n)
             sim_t = K @ T.T                  # (k, n)
@@ -227,9 +263,11 @@ Product description:
 
 
 if __name__ == "__main__":
+
+
     # Hyperparameters
     DATASETS = ["Books", "All_Beauty", "Video_Games", "Last-FM"]
-    DATASET = DATASETS[1]  # e.g. "All_Beauty"
+    DATASET = DATASETS[2]  # e.g. "All_Beauty"
     DIR_NAME = "amazon-"
     LLM_MODEL = "gemma3"
     SENTENCE_TRANSFORMER = "all-MiniLM-L6-v2"
@@ -246,36 +284,47 @@ if __name__ == "__main__":
     )
     metadata_filtered_df = pd.read_csv(data_path)
 
+    # Experiment params
+
+    mlflow.set_experiment(f"LLM-COL-{LLM_MODEL} w/ summary")
+    #mlflow.set_experiment(f"LLM-COL-{LLM_MODEL} w/o summary")
+    mlflow.langchain.autolog()
+    mlflow.log_param("model_name",LLM_MODEL)
+    mlflow.log_param("temperature",0.1)
+
+
     llm_hierarchy = LLMHierarchyCOL(LLM_MODEL)
 
     start = time.time()
 
-    # 1) Generate detailed summaries (streaming to save memory)
+    ##1) Generate detailed summaries (streaming to save memory)
     for idx, row in metadata_filtered_df.iterrows():
         print(f"Detailing row {idx}")
         metadata_filtered_df.at[idx, "detailed_summary"] = (
             llm_hierarchy.generate_details(row.source_text)
         )
-        # optionally flush to disk every N rows...
+
 
     # 2) Batch‐wise taxonomy building
-    BATCH_SIZE = 10
+    BATCH_SIZE = 20
     dict_asin_keywords = {}
     taxonomy_text = ""
 
     for i in range(0, len(metadata_filtered_df), BATCH_SIZE):
-        
         print(f"Processing batch {i} to {i + BATCH_SIZE}")
         batch = metadata_filtered_df.iloc[i : i + BATCH_SIZE]
         batch_kw_lists = []
         for _, item in batch.iterrows():
             kws = llm_hierarchy.get_keywords(item.detailed_summary)
             batch_kw_lists.append(kws)
+            # Store the list directly instead of converting to string
             dict_asin_keywords[item.parent_asin] = kws
 
         # generate → update → review
         taxonomy_text = llm_hierarchy.generate_tax(ROOT_CONCEPT, batch_kw_lists, taxonomy_text)
         taxonomy_text = llm_hierarchy.update_tax(taxonomy_text, ROOT_CONCEPT, batch_kw_lists)
+        taxonomy_text = llm_hierarchy.summary_tax(ROOT_CONCEPT,taxonomy_text)
+        print(taxonomy_text)
         ok = llm_hierarchy.review(batch.iloc[0].detailed_summary, taxonomy_text, ROOT_CONCEPT, batch_kw_lists)
         if not ok:
             taxonomy_text = llm_hierarchy.generate_tax(ROOT_CONCEPT, batch_kw_lists, "")
@@ -283,17 +332,16 @@ if __name__ == "__main__":
 
         # transform → link → save
         triples_df = llm_hierarchy.taxonomy_to_triples(taxonomy_text)
-        linked_df = llm_hierarchy.linkage_asin_to_taxonomy(triples_df, dict_asin_keywords)
 
-        out_path = os.path.join(
-            current_dir,
-            "data",
-            "taxonomy",
-            f"{DIR_NAME}{DATASET}",
-            f"{LLM_MODEL}_taxonomy_triples_batch{i}.csv"
-        )
-        linked_df.to_csv(f"{LLM_MODEL}-relations.csv", index=False)
+
+    linked_df = llm_hierarchy.linkage_asin_to_taxonomy(triples_df, dict_asin_keywords)
+
+    folder_path = os.path.join(current_dir, 'data', 'taxonomy', f'{DIR_NAME}{DATASET}')
+    os.makedirs(folder_path, exist_ok=True)
+
+    linked_df.to_csv(f"{folder_path}/{LLM_MODEL}_taxonomy.csv", index=False)
 
     end = time.time()
     print(f"Total runtime: {end - start:.1f}s")
     print(f"Per‐item runtime: {(end - start) / len(metadata_filtered_df):.3f}s")
+

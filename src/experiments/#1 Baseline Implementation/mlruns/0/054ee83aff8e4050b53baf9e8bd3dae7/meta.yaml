@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Baseline%20Implementation/mlruns/0/054ee83aff8e4050b53baf9e8bd3dae7/artifacts
+end_time: 1749440584828
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 054ee83aff8e4050b53baf9e8bd3dae7
+run_name: persistent-lamb-551
+run_uuid: 054ee83aff8e4050b53baf9e8bd3dae7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749440584798
+status: 3
+tags: []
+user_id: U725801

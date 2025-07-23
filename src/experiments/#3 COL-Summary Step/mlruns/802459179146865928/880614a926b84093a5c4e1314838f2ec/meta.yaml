@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%233%20COL-Summary%20Step/mlruns/802459179146865928/880614a926b84093a5c4e1314838f2ec/artifacts
+deleted_time: 1746649939995
+end_time: 1746642847712
+entry_point_name: ''
+experiment_id: '802459179146865928'
+lifecycle_stage: deleted
+run_id: 880614a926b84093a5c4e1314838f2ec
+run_name: amazon-Video_Games-5-Hops
+run_uuid: 880614a926b84093a5c4e1314838f2ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746642638358
+status: 3
+tags: []
+user_id: U725801

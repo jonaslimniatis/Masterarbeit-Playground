@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%235%20Keyword%20Batch%20size%20/mlruns/877573842248256496/4e3884985fa6488fa652d5769151482a/artifacts
+end_time: 1752740104079
+entry_point_name: ''
+experiment_id: '877573842248256496'
+lifecycle_stage: active
+run_id: 4e3884985fa6488fa652d5769151482a
+run_name: amazon-Video_Games--10-Batch-Size
+run_uuid: 4e3884985fa6488fa652d5769151482a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752733963730
+status: 3
+tags: []
+user_id: U725801

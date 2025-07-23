@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%232%20Taxonomy%20without%20redundancies/mlruns/924155376979111887/d6ef4d53be674689858b83673a9932fb/artifacts
+deleted_time: 1747234520225
+end_time: 1746723236538
+entry_point_name: ''
+experiment_id: '924155376979111887'
+lifecycle_stage: deleted
+run_id: d6ef4d53be674689858b83673a9932fb
+run_name: amazon-Video_Games-wo-grand-parents
+run_uuid: d6ef4d53be674689858b83673a9932fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746723236511
+status: 3
+tags: []
+user_id: U725801

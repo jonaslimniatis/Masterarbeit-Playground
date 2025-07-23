@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%235%20Comparison%20LLM/mlruns/839716899001890261/640ff6e97adb4f688044000053b7f5ef/artifacts
+end_time: 1748528792809
+entry_point_name: ''
+experiment_id: '839716899001890261'
+lifecycle_stage: active
+run_id: 640ff6e97adb4f688044000053b7f5ef
+run_name: amazon-Video_Games--5-Batch-Size
+run_uuid: 640ff6e97adb4f688044000053b7f5ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748526079089
+status: 3
+tags: []
+user_id: U725801

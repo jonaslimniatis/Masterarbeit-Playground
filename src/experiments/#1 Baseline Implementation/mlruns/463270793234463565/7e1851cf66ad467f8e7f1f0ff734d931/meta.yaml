@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Baseline%20Implementation/mlruns/463270793234463565/7e1851cf66ad467f8e7f1f0ff734d931/artifacts
+end_time: 1751836073076
+entry_point_name: ''
+experiment_id: '463270793234463565'
+lifecycle_stage: active
+run_id: 7e1851cf66ad467f8e7f1f0ff734d931
+run_name: learned-ray-473
+run_uuid: 7e1851cf66ad467f8e7f1f0ff734d931
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751836073049
+status: 3
+tags: []
+user_id: U725801

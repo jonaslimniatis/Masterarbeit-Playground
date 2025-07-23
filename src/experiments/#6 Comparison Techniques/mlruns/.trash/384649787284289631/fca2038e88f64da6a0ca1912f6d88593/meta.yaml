@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Comparison%20Techniques/mlruns/384649787284289631/fca2038e88f64da6a0ca1912f6d88593/artifacts
+deleted_time: 1746463604180
+end_time: 1746462962336
+entry_point_name: ''
+experiment_id: '384649787284289631'
+lifecycle_stage: deleted
+run_id: fca2038e88f64da6a0ca1912f6d88593
+run_name: KG_Stats_vs_Accuracy_Correlation
+run_uuid: fca2038e88f64da6a0ca1912f6d88593
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746462962115
+status: 3
+tags: []
+user_id: U725801

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%233%20COL-Summary%20Step/mlruns/802459179146865928/71393ae6447f4f348fafca4b6977ad4b/artifacts
+deleted_time: 1747323145454
+end_time: 1746729763696
+entry_point_name: ''
+experiment_id: '802459179146865928'
+lifecycle_stage: deleted
+run_id: 71393ae6447f4f348fafca4b6977ad4b
+run_name: amazon-Video_Games-wo-direct-parents-13-Hops
+run_uuid: 71393ae6447f4f348fafca4b6977ad4b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746729533247
+status: 3
+tags: []
+user_id: U725801

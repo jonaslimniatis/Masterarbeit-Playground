@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%232%20Taxonomy%20without%20redundancies/mlruns/924155376979111887/4605206b66df41b8aac0f87093a33d82/artifacts
+deleted_time: 1746477698620
+end_time: 1746477518784
+entry_point_name: ''
+experiment_id: '924155376979111887'
+lifecycle_stage: deleted
+run_id: 4605206b66df41b8aac0f87093a33d82
+run_name: amazon-Video_Games-wo-direct-parents
+run_uuid: 4605206b66df41b8aac0f87093a33d82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746477518755
+status: 3
+tags: []
+user_id: U725801

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%233%20COL-Summary%20Step/mlruns/802459179146865928/c94ae603044b43798317926eaa6708da/artifacts
+deleted_time: 1747323145463
+end_time: 1746722749496
+entry_point_name: ''
+experiment_id: '802459179146865928'
+lifecycle_stage: deleted
+run_id: c94ae603044b43798317926eaa6708da
+run_name: amazon-Video_Games-with-redundancies-7-Hops
+run_uuid: c94ae603044b43798317926eaa6708da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746722449369
+status: 3
+tags: []
+user_id: U725801

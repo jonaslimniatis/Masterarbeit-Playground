@@ -8,6 +8,11 @@ from scipy.cluster import hierarchy as sch
 import os
 import numpy as np
 import time
+import mlflow 
+import torch
+import gc
+import psutil
+
 class EmbeddingHierarchy:
     def __init__(self, embedding_model,random_seed):
         self.embedding_model = SentenceTransformer(embedding_model)
@@ -138,7 +143,7 @@ if __name__ == "__main__":
     
     # TODO Update file path
     DATASETS = ["All_Beauty", "Video_Games","Last-FM"]
-    DATASET = DATASETS[0]
+    DATASET = DATASETS[1]
     DIR_NAME = "amazon-" # else: Last_fm, MovieLens
     RANDOM_SEED = 42 # Assign the integer seed directly
     np.random.seed(RANDOM_SEED) # Set the numpy random seed
@@ -151,8 +156,25 @@ if __name__ == "__main__":
     metadata_df = pd.read_csv(data_path)
     
     start_time = time.time()
-    embeddings_models = ["all-MiniLM-L6-v2","intfloat/multilingual-e5-large-instruct","Alibaba-NLP/gte-Qwen2-1.5B-instruct"]
-    EMBEDDING_MODEL = embeddings_models[2]   
+    embeddings_models = ["all-MiniLM-L6-v2","intfloat/multilingual-e5-large-instruct","Alibaba-NLP/gte-Qwen2-1.5B-instruct", "Qwen/Qwen3-Embedding-0.6B","Qwen/Qwen3-Embedding-1.5B"]
+    EMBEDDING_MODEL = embeddings_models[4]  
+
+ 
+    os.environ['MLFLOW_TRACKING_USERNAME'] = "jonas.limniatis2"
+    os.environ['MLFLOW_TRACKING_PASSWORD'] = "4563359ec5513f3621677b9729db8a4c617e07eb"
+    os.environ['MLFLOW_TRACKING_PROJECTNAME'] = "LLM-Col"
+
+    mlflow.set_tracking_uri(f'https://dagshub.com/' + os.environ['MLFLOW_TRACKING_USERNAME']
+                          + '/' + os.environ['MLFLOW_TRACKING_PROJECTNAME'] + '.mlflow')
+    
+    EXPERIMENT_NAME = "Hierarchical Topic Modeling"
+
+    mlflow.set_experiment(EXPERIMENT_NAME)
+    mlflow.start_run(run_name=f"{EMBEDDING_MODEL}")
+
+    mlflow.set_tag("embedding_model", EMBEDDING_MODEL)
+    mlflow.set_tag("dataset", DATASET)
+
     #NUM_CLUSTERS = 5
 
     safe_model_name = EMBEDDING_MODEL.replace('/', '_')
@@ -162,17 +184,21 @@ if __name__ == "__main__":
     
 
     embedding_triples_df = embedding_hierarchy.create_triples(hierarchical_topics,metadata_df,topics)
-
-    # save triples to csv
-    out_path = os.path.join(current_dir, 'data', 'taxonomy', f'{DIR_NAME}{DATASET}/{safe_model_name}_relations.csv')
-    embedding_triples_df.to_csv(out_path, index=False)
+    # filter out na in tail column
+    embedding_triples_df = embedding_triples_df[embedding_triples_df['tail'].notna()]
     # build path 
+    mlflow.log_dict(embedding_triples_df.to_dict(orient="records"), f"{EMBEDDING_MODEL}_taxonomy.json")
 
-    folder_path = os.path.join(current_dir, 'data', 'taxonomy', 'topics', f'{DIR_NAME}{DATASET}')
+    folder_path = os.path.join(current_dir, 'data', 'taxonomy', 'amazon-Video_Games')
 
     os.makedirs(folder_path, exist_ok=True)
-    embedding_hierarchy.safe_plots(folder_path,embedding_model_name=EMBEDDING_MODEL,topic_model=topic_model,topics=topics,hierarchical_topics=hierarchical_topics)
+    #embedding_hierarchy.safe_plots(folder_path,embedding_model_name=EMBEDDING_MODEL,topic_model=topic_model,topics=topics,hierarchical_topics=hierarchical_topics)
+    embedding_triples_df.to_csv(f"{folder_path}/{EMBEDDING_MODEL}_taxonomy.csv")
 
     end_time = time.time()
     print("Runtime: ", end_time - start_time)
     print("Runetime per item: ", (end_time - start_time) / len(metadata_df))
+    mlflow.log_param("embedding_model", EMBEDDING_MODEL)
+    mlflow.log_param("dataset", DATASET)
+    mlflow.log_metric("runtime", end_time - start_time)
+    mlflow.end_run()

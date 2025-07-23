@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Comparison%20Techniques/mlruns/384649787284289631/912688e49d534e50939b60a98f4e0c7c/artifacts
+deleted_time: 1746463604180
+end_time: 1746462735029
+entry_point_name: ''
+experiment_id: '384649787284289631'
+lifecycle_stage: deleted
+run_id: 912688e49d534e50939b60a98f4e0c7c
+run_name: Alibaba-NLP_gte-Qwen2-1.5B-instruct_Hops3
+run_uuid: 912688e49d534e50939b60a98f4e0c7c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746462734978
+status: 4
+tags: []
+user_id: U725801

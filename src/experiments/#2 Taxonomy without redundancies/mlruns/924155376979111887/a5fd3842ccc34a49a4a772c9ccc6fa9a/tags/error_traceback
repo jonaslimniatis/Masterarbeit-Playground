@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/Users/U725801/Library/Python/3.12/lib/python/site-packages/mlflow/store/tracking/file_store.py", line 1104, in log_batch
+    self._log_run_param(run_info, param)
+  File "/Users/U725801/Library/Python/3.12/lib/python/site-packages/mlflow/store/tracking/file_store.py", line 1006, in _log_run_param
+    self._validate_new_param_value(
+  File "/Users/U725801/Library/Python/3.12/lib/python/site-packages/mlflow/store/tracking/file_store.py", line 1026, in _validate_new_param_value
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Changing param values is not allowed. Param with key='model_technique' was already logged with value='gemma3' for run ID='a5fd3842ccc34a49a4a772c9ccc6fa9a'. Attempted logging new value 'all-MiniLM-L6-v2'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/var/folders/33/fw5wlwpj4b78_xvtgsm72q6r0000gq/T/ipykernel_79425/2558505571.py", line 169, in <module>
+    mlflow.log_params(vars(args))
+  File "/Users/U725801/Library/Python/3.12/lib/python/site-packages/mlflow/tracking/fluent.py", line 1030, in log_params
+    return MlflowClient().log_batch(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/U725801/Library/Python/3.12/lib/python/site-packages/mlflow/tracking/client.py", line 1868, in log_batch
+    return self._tracking_client.log_batch(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/U725801/Library/Python/3.12/lib/python/site-packages/mlflow/tracking/_tracking_service/client.py", line 747, in log_batch
+    self.store.log_batch(
+  File "/Users/U725801/Library/Python/3.12/lib/python/site-packages/mlflow/store/tracking/file_store.py", line 1115, in log_batch
+    raise MlflowException(e, INTERNAL_ERROR)
+mlflow.exceptions.MlflowException: Changing param values is not allowed. Param with key='model_technique' was already logged with value='gemma3' for run ID='a5fd3842ccc34a49a4a772c9ccc6fa9a'. Attempted logging new value 'all-MiniLM-L6-v2'.

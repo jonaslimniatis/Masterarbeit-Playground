@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%232%20Taxonomy%20without%20redundancies/mlruns/924155376979111887/87593f38cb054ea79f87195589c74e1a/artifacts
+deleted_time: 1746477698663
+end_time: 1746468368619
+entry_point_name: ''
+experiment_id: '924155376979111887'
+lifecycle_stage: deleted
+run_id: 87593f38cb054ea79f87195589c74e1a
+run_name: wo-direct-parents-3-Hops
+run_uuid: 87593f38cb054ea79f87195589c74e1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746468343225
+status: 3
+tags: []
+user_id: U725801

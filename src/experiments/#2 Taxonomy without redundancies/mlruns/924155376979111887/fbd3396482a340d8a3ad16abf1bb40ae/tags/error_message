@@ -1,0 +1,1 @@
+Changing param values is not allowed. Param with key='model_technique' was already logged with value='gemma3' for run ID='fbd3396482a340d8a3ad16abf1bb40ae'. Attempted logging new value 'all-MiniLM-L6-v2'.

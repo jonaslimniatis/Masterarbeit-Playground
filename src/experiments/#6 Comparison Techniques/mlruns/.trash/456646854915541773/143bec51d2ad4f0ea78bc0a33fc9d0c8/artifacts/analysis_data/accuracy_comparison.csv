@@ -1,0 +1,19 @@
+,Technique,Hops,Recall@20,Precision@20,NDCG@20,Hit_Ratio@20,AUC,Epochs Run
+0,all-MiniLM-L6-v2,3,,,,,,0
+1,all-MiniLM-L6-v2,6,,,,,,0
+2,all-MiniLM-L6-v2,9,,,,,,0
+3,intfloat/multilingual-e5-large-instruct,3,,,,,,0
+4,intfloat/multilingual-e5-large-instruct,6,,,,,,0
+5,intfloat/multilingual-e5-large-instruct,9,,,,,,0
+6,Alibaba-NLP/gte-Qwen2-1.5B-instruct,3,,,,,,0
+7,Alibaba-NLP/gte-Qwen2-1.5B-instruct,6,,,,,,0
+8,Alibaba-NLP/gte-Qwen2-1.5B-instruct,9,,,,,,0
+9,gemma3,3,,,,,,0
+10,gemma3,6,,,,,,0
+11,gemma3,9,,,,,,0
+12,ner,3,,,,,,0
+13,ner,6,,,,,,0
+14,ner,9,,,,,,0
+15,baseline,3,,,,,,0
+16,baseline,6,,,,,,0
+17,baseline,9,,,,,,0

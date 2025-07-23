@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%234%20Linking%20treshhold/mlruns/979055155990099598/0abe1e3084b147268e550f400695a48e/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '979055155990099598'
+lifecycle_stage: active
+run_id: 0abe1e3084b147268e550f400695a48e
+run_name: amazon-Video_Games-08-13-Hops
+run_uuid: 0abe1e3084b147268e550f400695a48e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747773375386
+status: 1
+tags: []
+user_id: U725801

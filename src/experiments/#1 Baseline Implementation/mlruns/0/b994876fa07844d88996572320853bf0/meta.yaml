@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Baseline%20Implementation/mlruns/0/b994876fa07844d88996572320853bf0/artifacts
+end_time: 1749322186884
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b994876fa07844d88996572320853bf0
+run_name: amazon-Video_Games-Baseline-collaborative_filtering-3-Hops
+run_uuid: b994876fa07844d88996572320853bf0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749322186856
+status: 4
+tags: []
+user_id: U725801

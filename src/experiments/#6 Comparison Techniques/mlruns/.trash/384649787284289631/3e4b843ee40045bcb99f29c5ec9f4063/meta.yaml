@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Comparison%20Techniques/mlruns/384649787284289631/3e4b843ee40045bcb99f29c5ec9f4063/artifacts
+deleted_time: 1746463604180
+end_time: 1746462409323
+entry_point_name: ''
+experiment_id: '384649787284289631'
+lifecycle_stage: deleted
+run_id: 3e4b843ee40045bcb99f29c5ec9f4063
+run_name: ner-Comparison
+run_uuid: 3e4b843ee40045bcb99f29c5ec9f4063
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746462407748
+status: 3
+tags: []
+user_id: U725801

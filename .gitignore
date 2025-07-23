@@ -170,10 +170,13 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# Ignore large data files and directories
-
-
-# Or be more specific if needed:
 data/raw/Last-FM/msd_user_listening_history.csv
 data/preprocessed/amazon-Video_Games/metadata_filtered_df.csv
-data/preprocessed/Last-FM/
+data/preprocessed/Last-FM/train_df.csv 
+data/raw/Last-FM/mxm_lyrics_train.txt 
+data/raw/Last-FM/mxm_metadata.txt
+data/raw/Last-FM/msd_user_listening_history.csv
+data/preprocessed/amazon-Video_Games/metadata_filtered_df.csv
+
+
+

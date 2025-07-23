@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Baseline%20Implementation/mlruns/0/1944e46446cb4df191c53c8c22295f20/artifacts
+end_time: 1747232582056
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1944e46446cb4df191c53c8c22295f20
+run_name: amazon-All_Beauty-13-Hops
+run_uuid: 1944e46446cb4df191c53c8c22295f20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747232568437
+status: 3
+tags: []
+user_id: U725801

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%232%20Taxonomy%20without%20redundancies/mlruns/924155376979111887/5b90d9084ba342139cae2db02258b5bb/artifacts
+deleted_time: 1746651150367
+end_time: 1746588123633
+entry_point_name: ''
+experiment_id: '924155376979111887'
+lifecycle_stage: deleted
+run_id: 5b90d9084ba342139cae2db02258b5bb
+run_name: amazon-Video_Games-wo-grand-parents-5-Hops
+run_uuid: 5b90d9084ba342139cae2db02258b5bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746587935359
+status: 3
+tags: []
+user_id: U725801

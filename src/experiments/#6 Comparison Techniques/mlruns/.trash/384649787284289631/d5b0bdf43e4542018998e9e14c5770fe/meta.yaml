@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/U725801/Documents/GitHub/Masterarbeit-Playground/src/experiments/%231%20Comparison%20Techniques/mlruns/384649787284289631/d5b0bdf43e4542018998e9e14c5770fe/artifacts
+deleted_time: 1746463604180
+end_time: 1746462091675
+entry_point_name: ''
+experiment_id: '384649787284289631'
+lifecycle_stage: deleted
+run_id: d5b0bdf43e4542018998e9e14c5770fe
+run_name: intfloat/multilingual-e5-large-instruct-Comparison
+run_uuid: d5b0bdf43e4542018998e9e14c5770fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746462091008
+status: 3
+tags: []
+user_id: U725801

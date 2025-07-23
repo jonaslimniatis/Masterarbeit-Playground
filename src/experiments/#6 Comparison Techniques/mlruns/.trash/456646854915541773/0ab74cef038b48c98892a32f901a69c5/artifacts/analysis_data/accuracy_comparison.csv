@@ -1,0 +1,7 @@
+,Method,Recall@20,Precision@20,NDCG@20,Hit_Ratio@20
+0,Baseline,0.0018,0.0139,0.0242,0.2222
+1,Hierarchical-Topic-e5-large-instruct,0.0025,0.0194,0.0613,0.3889
+2,Hierarchical-Topic-MiniLM-L6-v2,0.0000,0.0000,0.0000,0.0000
+3,Hierarchical-Topic-gte-Qwen2-1.5B-instruct,0.0018,0.0139,0.0357,0.2778
+4,Hearst-Patterns NER-Rebel-large,0.0017,0.0139,0.0213,0.2222
+5,LLM-Col-Hierarchy-Tax,0.0021,0.0167,0.0646,0.2222
